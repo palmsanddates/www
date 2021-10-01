@@ -1,6 +1,4 @@
 const webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin;
 const DuplicatePackageCheckerPlugin = require('duplicate-package-checker-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 
@@ -10,7 +8,6 @@ module.exports = {
       minimize: true,
     },
     plugins: [
-      new BundleAnalyzerPlugin(),
       new webpack.DefinePlugin({
         //<--key to reduce React's size
         'process.env': {
