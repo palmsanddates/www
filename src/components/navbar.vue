@@ -102,11 +102,6 @@ export default {
             v-scroll-to="{ el: '#features', offset: -100 }"
             >Features</b-nav-item
           >
-          <b-nav-item
-            href="javascript: void(0);"
-            v-scroll-to="{ el: '#contact', offset: -50 }"
-            >Contact Us</b-nav-item
-          >
         </b-navbar-nav>
       </b-collapse>
     </b-container>

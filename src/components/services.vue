@@ -65,8 +65,8 @@ export default {
                   Meet Students
                 </h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Find people you vibe with in your dorm residence, on a simple
-                  interface.
+                  Find people you vibe with on campus through events, on a
+                  simple interface.
                 </p>
               </div>
               <div class="wc-box rounded text-center wc-box-primary p-4">
@@ -91,8 +91,7 @@ export default {
                   Democracy
                 </h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Rather rely on your RA, vote on things that matter in your
-                  residence.
+                  Vote on events that you find interesting and matter to you.
                 </p>
               </div>
               <div class="wc-box rounded text-center wc-box-primary p-4">
@@ -100,10 +99,10 @@ export default {
                   <svg-icon type="mdi" :path="pathHelp"></svg-icon>
                 </div>
                 <h5 class="font-weight-bold mb-2 wc-title mt-4">
-                  Support
+                  Feedback
                 </h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Get your voices heard; if you notice an issue, post a ticket!
+                  Get your voices heard; if you have a suggestion let organizers know!
                 </p>
               </div>
             </b-col>

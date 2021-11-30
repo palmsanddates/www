@@ -2,7 +2,6 @@
 import Navbar from '@/components/navbar';
 import Service from '@/components/services';
 import Features from '@/components/features';
-import Contact from '@/components/contact';
 import Footer from '@/components/footer';
 
 import {
@@ -24,7 +23,6 @@ export default {
     Navbar,
     Service,
     Features,
-    Contact,
     Footer,
     BSpinner,
     BForm,
@@ -109,37 +107,25 @@ export default {
               <div class="card p-4 glass">
                 <div class="card-body">
                   <h1 class="hero-1-title text-dark font-weight-bold mb-4">
-                    Dorm Community Made Simple
+                    An Event Bulletin in Your Pocket
                   </h1>
                   <div class="w-75 mb-5 mb-lg-0">
                     <p class="text-muted mb-5 pb-5 font-size-17">
-                      Made for and by students. We're here to change the way we
-                      socialize in our dorm residence.
+                      We are here to bridge the gap of the rapidly evolving
+                      social needs of students and the slow adoption by
+                      institutions. That entails .
                     </p>
-                    <p class>Want to stay in the loop?</p>
-                    <div class="subscribe-form">
-                      <b-form @submit.stop.prevent="onSubmit">
-                        <b-form-group>
-                          <b-form-input
-                            placeholder="Enter  email..."
-                            v-model.trim.lazy="$v.form.emailSubscribe.$model"
-                            :state="validateState('emailSubscribe')"
-                            aria-describedby="input-email-subscribe"
-                          />
-                          <button type="submit" class="btn btn-primary">
-                            <div class="text-center" v-if="!isSending">
-                              Subscribe
-                            </div>
-                            <div v-else>
-                              <b-spinner small label="Loading..."></b-spinner>
-                            </div>
-                          </button>
-                          <b-form-invalid-feedback id="input-email-subscribe"
-                            >Please enter a valid email
-                            address.</b-form-invalid-feedback
-                          >
-                        </b-form-group>
-                      </b-form>
+                    <p class>
+                      Want to keep up with the latest campus events?
+                    </p>
+                    <div>
+                      <a
+                        class="btn btn-primary"
+                        href="https://app.palmsanddates.com"
+                        target="_blank"
+                      >
+                        Redirect Me
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -151,7 +137,6 @@ export default {
       <!-- Hero End -->
       <Service />
       <Features />
-      <Contact />
       <Footer />
     </div>
   </div>

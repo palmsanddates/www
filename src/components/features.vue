@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       pathStudents: mdiAccountGroup,
-      pathManager: mdiAccountTie
+      pathManager: mdiAccountTie,
     };
   },
 };
@@ -78,16 +78,12 @@ export default {
             </h3>
             <p class="text-muted font-size-15 mb-4 text-justify">
               You could be a senior or fresh off the boat; you'll be welcome all
-              the same. In addition, you'd be able to scroll through student
-              profiles to see who has similar interests and create groups or
-              events with them.
+              the same. In addition, you'd be able to scroll through events and
+              join in on the fun.
             </p>
             <div class="mt-5">
-              <a
-                href="javascript: void(0);"
-                class="btn btn-primary mr-2"
-                v-scroll-to="{ el: '#home' }"
-                >Subscribe</a
+              <a  href="https://app.palmsanddates.com" target="_blank" class="btn btn-primary mr-2"
+                >Redirect Me</a
               >
             </div>
           </b-col>
@@ -111,22 +107,19 @@ export default {
                 :path="pathManager"
                 class="mdi h2 text-primary mr-1 align-middle"
               ></svg-icon>
-              Building Managers
+              Event Organizers
             </p>
             <h3 class="font-weight-semibold line-height-1_4 mb-4">
-              Retain Students & Manage With Ease
+              Create Fun Events With Ease
             </h3>
             <p class="text-muted font-size-15 mb-4 text-justify">
               Create a safe & social environment for students, and a happy
-              student is a recurring tenant. You can also nurture a relationship
-              with the tenants by communication and events in the residence.
+              student is a recurring one. You'll have the power to update and
+              notify the students.
             </p>
             <div class="mt-5">
-              <a
-                href="javascript: void(0);"
-                class="btn btn-primary mr-2"
-                v-scroll-to="{ el: '#home' }"
-                >Subscribe</a
+              <a class="btn btn-primary mr-2" href="https://app.palmsanddates.com" target="_blank"
+                >Redirect Me</a
               >
             </div>
           </b-col>
